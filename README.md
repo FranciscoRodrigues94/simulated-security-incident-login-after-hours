@@ -22,6 +22,7 @@ On **Sunday, June 22nd, 2025**, at **03:17 AM**, a successful login was register
 
 Note: These logs are fictional and created for educational purposes only!
 
+```
 ---
 
 ## First Impressions on the issue
@@ -52,12 +53,22 @@ To further investigate my assumptions of a possible unauthorized access and brea
 - This location is inconsistent with the company’s expected access regions (knowing that the Company only operates within Europe).
 - The access occurred outside of working hours and came from an unfamiliar country.
 
+
+![Result from the IP search](/Screenshots/Screenshot_IP_address.jpg)
+
+
+
 ### 2. IP Reputation Check
 - Tool used: [abuseipdb.com](https://www.abuseipdb.com)
 - Result: The IP is not flagged as malicious according to AbuseIPDB. However, this does not necessarily mean it came from a reliable source or a legitimate user.
 - There is no prior record of international logins associated with this account.  
 - The employee linked to the account denied accessing the system at the reported time.  
 - No remote work authorization was recorded for that weekend.
+
+
+![Result from the Reputation check](/Screenshots/Screenshot_AbuseIPDB.jpg)
+
+
 
 My initial hypothesis remains unchanged: this login is considered unauthorized and remains a strong indicator of potential compromise.
 
